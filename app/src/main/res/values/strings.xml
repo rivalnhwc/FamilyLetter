@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FamilyLetter</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="alarm_fragment_centext">AlarmFragment</string>
+    <string name="chat_fragment_centext">ChatFragment</string>
+    <string name="letter_fragment_centext">LetterFragment</string>
+    <string name="memoday_fragment_centext">MemorialDayFragment</string>
+    <string name="setting_fragment_centext">SettingFragment</string>
+
+    <string name="alarm_tab_btn">Alarm</string>
+    <string name="chat_tab_btn">Chat</string>
+    <string name="letter_tab_btn">Letter</string>
+    <string name="memoday_tab_btn">Days</string>
+    <string name="setting_tab_btn">Setting</string>
+
+</resources>

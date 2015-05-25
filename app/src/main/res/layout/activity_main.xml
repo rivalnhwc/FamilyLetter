@@ -1,0 +1,169 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/container"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context=".MainActivity" tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:weightSum="1"
+        android:baselineAligned="false"
+        android:measureWithLargestChild="false"
+
+        android:background="@drawable/main_tab_boder">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tab_bottom_letter"
+            android:layout_weight="0.2">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView_letter"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="6"
+
+                android:src="@drawable/open56"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/letter_tab_btn"
+                android:id="@+id/textView_tab_letter"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="6dp"
+                android:textSize="12dp"
+
+                android:textColor="#80323232"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tab_bottom_alarm"
+            android:layout_weight="0.2">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView_alarm"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="6"
+
+                android:src="@drawable/alarm12"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/alarm_tab_btn"
+                android:id="@+id/textView_tab_alarm"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="6dp"
+                android:textSize="12dp"
+
+                android:textColor="#80323232"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tab_bottom_chat"
+            android:layout_weight="0.2">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView_chat"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="6"
+
+                android:src="@drawable/walk10"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chat_tab_btn"
+                android:id="@+id/textView_tab_chat"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="6dp"
+                android:textSize="12dp"
+
+                android:textColor="#80323232"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tab_bottom_memoday"
+            android:layout_weight="0.2">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView_memoday"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="6"
+
+                android:src="@drawable/favourite7"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/memoday_tab_btn"
+                android:id="@+id/textView_tab_memoday"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:textSize="12dp"
+                android:layout_marginBottom="6dp"
+
+                android:textColor="#80323232"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tab_bottom_setting"
+            android:layout_weight="0.2">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView_setting"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="6"
+
+                android:src="@drawable/cogwheel4"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/setting_tab_btn"
+                android:id="@+id/textView_tab_setting"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:textSize="12dp"
+                android:layout_marginBottom="6dp"
+
+                android:textColor="#80323232"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
